@@ -1,6 +1,7 @@
 /** @format */
 
 import React from 'react';
+import SearchField from '../../components/SearchField/SearchField';
 
 const HomePage = () => {
   return (
@@ -8,12 +9,12 @@ const HomePage = () => {
       <div className='row d-flex justify-content-between'>
         <div className='col-lg-6'>
           <div className='heading-section'>
-            <h2>Search property to rent</h2>
+            <h2 className='fw-bolder'>Search property to rent</h2>
           </div>
         </div>
         <div className='col-lg-3'>
-          <div className='input-group mb-3'>
-            <div className='input-group mb-3 border rounded-2'>
+          <div className='input-group mb-3 border'>
+            <div className='input-group mb-3 border rounded-2 bg-white'>
               <input
                 type='text'
                 className='form-control border-0'
@@ -32,6 +33,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <SearchField />
     </div>
   );
 };
