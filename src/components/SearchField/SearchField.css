@@ -1,0 +1,12 @@
+/** @format */
+
+input:focus {
+  outline: none;
+}
+
+/* input focus color disable in bootstrap */
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
