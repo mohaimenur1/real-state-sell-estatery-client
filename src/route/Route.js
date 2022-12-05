@@ -12,6 +12,9 @@ export const router = createBrowserRouter([
       {
         path: '/',
         element: <HomePage />,
+        // loader: async () => {
+        //   return fetch('http://localhost:5000/property');
+        // },
       },
     ],
   },

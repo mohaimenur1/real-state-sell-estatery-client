@@ -10,3 +10,7 @@ input:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+li {
+  cursor: pointer;
+}
